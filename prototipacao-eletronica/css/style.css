@@ -27,6 +27,7 @@ body {
   font-size: 16px;
   line-height: 26px;
   color: #000000;
+  height:100%;
   -webkit-font-smoothing: antialiased;
 }
 body.dev {
@@ -294,17 +295,17 @@ b, strong {
 }
 
 ::-moz-selection {
-  background: #E93A7D;
+  background: #39C2D7;
   color: #ffffff;
 }
 
 ::-webkit-selection {
-  background: #E93A7D;
+  background: #39C2D7;
   color: #ffffff;
 }
 
 ::selection {
-  background: #E93A7D;
+  background: #39C2D7;
   color: #ffffff;
 }
 
