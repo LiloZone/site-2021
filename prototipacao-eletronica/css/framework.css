@@ -145,8 +145,14 @@
 .link {
   display: inline-block;
 }
+.link:hover, .link:focus {
+  text-decoration-line: underline;
+  text-decoration-color: #DF7627;
+  text-decoration-thickness: 3px;
+}
 .link.underline:hover, .link.underline:focus {
-  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-color: #DF7627;
 }
 .link.img_link:hover img {
   opacity: 0.8;
@@ -12387,7 +12393,7 @@ textarea.input {
   color: #ffffff;
 }
 .color-white.link:hover {
-  color: rgba(255, 255, 255, 0.7);
+  color: #DF7627;
 }
 
 .color-transparent-white {
